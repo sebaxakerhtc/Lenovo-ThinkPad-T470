@@ -33,25 +33,9 @@
 <summary><strong>Recent Changes ⌚️ </strong></summary>
 </br>
                                                                                                         
-**02/01/2023** : Updated to ```OpenCore 0.8.8``` .
+**03/18/2023** : Intial Release.
                                                            
-**12/14/2022** : Updated to ```OpenCore 0.8.7``` .
 
-**11/14/2022** : Updated to ```OpenCore 0.8.6``` . 
-
-**11/09/2022** : Changed the SMBIOS from ```MacBookPro12,1``` to ```MacBookPro14,1``` for better power management.
-
-**10/25/2022** : Downgraded back to ```OpenCore 0.8.3``` to avoid kernel panics and improve stability.
-                                                           
-**10/14/2022** : Changed the SMBIOS from ```MacBookPro11,5``` to  ```MacBookPro12,1```  and finally added support for video out in macOS Monterey.
-
-**10/12/2022** : Updated from OpenCore 0.8.3 to OpenCore 0.8.5                                                          
-                                                           
-**09/29/2022** : Added TrackPoint support and fixed the Instant Wake Issue when in sleep mode.
-
-**09/26/2022** : Added Bluetooth support for macOS Monterey & fixed the slow startup issue.
-
-**09/18/2022** : Changed the SMBIOS from ```MacBookPro11,1``` to  ```MacBookPro11,5``` for macOS Monterey.
 
 </details>
 
@@ -260,7 +244,7 @@ This will take some time, however once you're finished you should get either Bas
 </br>
 
 ## Battery and power management performance and more perks!
-- Disable hibernation, since it doesn't work properly on hackintoshes
+Disable hibernation, since it doesn't work properly on hackintoshes
 ```
 sudo pmset autopoweroff 0
 sudo pmset powernap 0
@@ -284,11 +268,11 @@ sudo pmset tcpkeepalive 0
 000000E0 = 3584MB
 FFFFFFFF = 4096MB
 ```
-**Undervolting the hackintoshed T470:**
+## Undervolting the CPU
 
 ![Screenshot 2022-11-20 at 4 55 01 PM](https://user-images.githubusercontent.com/69560584/202903425-7d8368f6-41a6-46c2-9930-2c26ad044bcb.png)
 
-- T470 is powerful and efficent but very hungry machine and makes noise too.. so its important to calm down him so he can be cool enough.. which is where we need to undervolt the machine. Undervolting is safe than overclocking just that if you undervolt too much and your machine hangs up so know the limits and know where to hold him live!
+The Lenovo ThinkPad T470 is a very powerful and efficent piece of hardware. However, it is also considered to be somewhat power hungry meaning the fans could rev up under full load. so its important to calm down him so he can be cool enough.. which is where we need to undervolt the machine. Undervolting is safer than overclocking. If you undervolt the CPU too much, your system will most likely become bricked.
 - Go to recovery and open terminal, now follow the below instructions..
 - type now : 
 ```
@@ -328,6 +312,19 @@ sudo ./voltageshift buildlaunchd  -130 -75 -130 0 0 0 0 0 1 10 12 1 160
 sudo ./voltageshift buildlaunchd <CPU> <GPU> <CPUCache> <SA> <AI/O> <DI/O> <turbo> <pl1> <pl2> <remain> <UpdateMins (0 only apply at bootup)>
 ```
 - Now the T470 never heats up and the fan is on 0rpm most of the time even when 3-4 applications are running simultaneously and the temprature wouldnt exceed 46°C on normal browsing + Music + Mail + Messages tasks. The Fan would automatically start when the temperature rises above 55°C and drops down to normal again after closing the high CPU usage task which is completely normal
+
+## Updating OpenCore
+1. Download and install the [OpenCore Updater](https://github.com/mswgen/oc-updater/releases).
+2. When the app opens, press Get Started. A dialog will appear asking you to select the EFI directory.
+3. Mount the EFI Partition on your drive using [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/).
+4. Select your EFI directory. It's usually /Volumes/EFI/EFI. It should have BOOT and OC directories inside.
+5. If your OpenCore version is detected, your OpenCore version and list of kexts you are using will be displayed. If your OpenCore version is not detected, you will be asked to select the OpenCore version you are using. Select the version you are using and press Select this version.
+6. If you are not using the latest version of OpenCore, the app will ask you to update. Press Update to update OpenCore.
+7. The app will start to download OpenCore, kexts, and Binary Data. this might take some time and you might see the spinning beach ball. DO NOT CLOSE THE APP.
+8. When the app finishes downloading, it will create a backup of your old EFI and will swap files with the new ones.
+9. Then, it will update config.plist. When it's done, it will display that it's done. It will also display the list of not updated kexts, the backup directory, and that OpenCore Vault is disabled(if it was enabled). You need to reboot your computer to see the changes.
+</details>
+
 
 ## Donate
 <a href="https://paypal.me/momsz"><img src="blue.svg" height="40"></a>  
