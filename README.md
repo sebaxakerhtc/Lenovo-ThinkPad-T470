@@ -1,63 +1,156 @@
-# Thinkpad T470  is a highly stable Hackintosh machine! 
+# Lenovo ThinkPad T470 OpenCore Configuration
 
-![lenovo T470 github](https://user-images.githubusercontent.com/69560584/189785204-1f684515-7708-4a69-ae59-a0161249cce4.png)
+![repository-VENTURA-graph-template](https://user-images.githubusercontent.com/72415505/226120563-c3dc52be-ebb8-4e89-b143-b3c6c960af2f.png)
 
-<h3 align="center" style="font-style:italic; color: grey">OpenCore EFI for ThinkPad T470</h3>
-<br>
+
+
+[![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.7.4-red)](https://www.apple.com/macos/big-sur/)
+[![macOS](https://img.shields.io/badge/macOS-Monterey_12.6.3-green)](https://www.apple.com/macos/monterey/)
+[![macOS](https://img.shields.io/badge/macOS-Ventura_13.2.1-orange)](https://www.apple.com/macos/Ventura/)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.8.8-blue)](https://github.com/acidanthera/OpenCorePkg)
+
+
 <p align="center">
-<a target="__blank" href="https://www.apple.com/in/macos/ventura/">
-  <img src="https://img.shields.io/badge/Compatibility-macOS%20%7C%20Ventura-yellow.svg?style=flat" />
-</p>
-  <p align="center">
-    <a target="__blank" href="https://developer.apple.com/documentation/macos-release-notes">
-  <img src="https://img.shields.io/badge/MacOS-13.1-orange.svg?style=flat" />
-    </a>
-    <a target="__blank" href="https://github.com/acidanthera/OpenCorePkg">
-      <img src="https://img.shields.io/badge/OpenCore-0.8.8-darkblue.svg?style=flat">
-    </a>
-    <a target="__blank" href="https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t470">
-      <img src="https://img.shields.io/badge/BIOS-1.72-red?style=flat">
-    </a>
+   <strong>Status: Maintained</strong>
+   <br />
+   <strong>OpenCore Version: </strong>0.8.8
+   <br />
+   <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440s/releases"><strong>Download now »</strong></a>
+   <br />
+   <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440s/discussions">Report Bug</a>
+   ·
+   <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440s/blob/main/CHANGELOG.md">Recent Changes</a>
+   ·
+   <a href=https://www.youtube.com/watch?v=6cAxwXj5Zy4">YouTube Review</a>
+   ·
+   <a href="https://github.com/momszx/Lenovo_T470_Opencore">Original Repo</a>
   </p>
+</p>
+</br>
 
-![Screenshot 2022-09-13 at 6 00 02 AM](https://user-images.githubusercontent.com/69560584/189782384-6f9df794-3fac-48b6-9e40-c135c030c8f5.png)
-![Screenshot 2022-09-13 at 5 55 21 AM](https://user-images.githubusercontent.com/69560584/189782400-99d6fef9-711e-41a6-a687-c9dc68210f5d.png)
-![Screenshot 2022-09-13 at 5 54 45 AM](https://user-images.githubusercontent.com/69560584/189782402-60d9235a-bb02-4887-8e1d-4b8764056cce.png)
-![Screenshot 2022-09-13 at 5 54 37 AM](https://user-images.githubusercontent.com/69560584/189782404-569861de-ad6c-4695-8f87-2b967549b6db.png)
+#
+<details>  
+<summary><strong>Recent Changes ⌚️ </strong></summary>
+</br>
+                                                                                                        
+**02/01/2023** : Updated to ```OpenCore 0.8.8``` .
+                                                           
+**12/14/2022** : Updated to ```OpenCore 0.8.7``` .
 
-**Disclaimer**
-- Hackintoshing may be dangerous and can damage your device and I am not responsible for bricked devices, dead devices, thermonuclear war, or you getting fired because your system failed. Please do some research if you have any concerns about hackintoshing before you proceed. YOU are choosing to make these changes to your system, and if you point the finger at me for messing up your device, I will laugh at you.
+**11/14/2022** : Updated to ```OpenCore 0.8.6``` . 
 
-**MacOS versions**
-- Mojave 
-- Catalina
-- Bigsur
-- Monterey
-- Ventura 
+**11/09/2022** : Changed the SMBIOS from ```MacBookPro12,1``` to ```MacBookPro14,1``` for better power management.
 
-**What's working?**
+**10/25/2022** : Downgraded back to ```OpenCore 0.8.3``` to avoid kernel panics and improve stability.
+                                                           
+**10/14/2022** : Changed the SMBIOS from ```MacBookPro11,5``` to  ```MacBookPro12,1```  and finally added support for video out in macOS Monterey.
 
+**10/12/2022** : Updated from OpenCore 0.8.3 to OpenCore 0.8.5                                                          
+                                                           
+**09/29/2022** : Added TrackPoint support and fixed the Instant Wake Issue when in sleep mode.
+
+**09/26/2022** : Added Bluetooth support for macOS Monterey & fixed the slow startup issue.
+
+**09/18/2022** : Changed the SMBIOS from ```MacBookPro11,1``` to  ```MacBookPro11,5``` for macOS Monterey.
+
+</details>
+
+</details>
+
+
+
+
+<details>  
+<summary><strong>My ThinkPad T470 Hardware Specs 💻</strong></summary>
+</br>
+
+| Model              | Lenovo ThinkPad T470                                                                              |
+|:-------------------|:----------------------------------------------------------------------------------------------------------|
+| Processor          | Intel Core i5-7300U (2C, 4T,  2.6GHz / 2.71GHz) vPro (The best compatibility with macOS)                                                              
+| Graphics           | Integrated Intel HD 620 Graphics                                                                          |
+| Memory             | 8 GB DDR4 (2x 4GB DDR4 SODIMM)                                                       |
+| Display            | 14" HD (1920x1080) IPS, Non-Touch                                                                      |
+| Storage            | 1 TB Pioneer SATA SSD + 16 GB mSATA SSD                                                                             |
+| Ethernet           | Intel Ethernet                                                         |
+| WLAN + Bluetooth   | Intel Wifi 18265 + Bluetooth 4.2                                        |
+| Camera             | 720p resolution, low light sensitive, fixed focus                                                       |
+| Audio support      | HD Audio, Realtek ALC3245 codec, stereo speakers 1Wx2, dual array microphone, combo audio/microphone jack |
+| Keyboard           | 6-row, spill-resistant, multimedia Fn keys, LED backlight                                                 |
+| Battery            | Internal Li-Polymer 3-cell (61) and External Li-Ion 3-cell (61)                       |
+
+
+</details>
+
+</details>
+
+<details>  
+<summary><strong>Hardware Compatibility 🧰</strong></summary>
+</br>
+ 
+## What works:
 - CPU Undervolting
 - Dual Battery (X220 Battery patch) 
 - All function keys working with yoga SMC
-- Graphics HD 620 with acceleration (Metal 3 Supported) - [VRAM = 4096MB]
+- Intel HD 620 Graphics
 - Fan control (Fan stops at low temp below 60 and starts working above 55 automatically, not to worry)
 - Touchscreen (VoodooI2C) - disabled it because it works like a f**king gaint touchpad!
 - Power management (CPU friend data)
-- Wifi (BCM94360NG)
-- Bluetooth (BCM94360NG)
-- USB C (only HDMI but no data transfer / Charging only)
-- HDMI (No issues)
+- Wi-Fi (Intel Wi-Fi 18265 & Broadcom BCM94360NG)
+- Bluetooth 4.0 (Intel Wi-Fi 18265 & Broadcom BCM94360NG)
+- USB C & Thunderbolt 3 
 - Apple HD Audio (ALC id=29 but not 47, because 47 gives unwanted buzzing noise when 3.5mm jack connected)
 - Sleep (works perfect!)
 - wake works (no issues with resuming services like BT and wifi etc)
 - SD Card slot
-- Handoff and Continuity all features work as BCM94360ng has native support for macOS
+- Handoff and Continuity (Intel Wi-Fi 18265 & Broadcom BCM94360NG)
+- AirDrop (Broadcom BCM94360NG Only)
+
+## What doesn't work:
+- FingerPrint Reader
+- HDMI (Will work through USB C / Thunderbolt Hub pass-through)
 
 
-**What's not working?**
-- USB C data transfer
-- Fingerprint reader (Will not work)
+
+</details>
+
+</details>
+
+<details>  
+<summary><strong>Photos 📷 </strong></summary>
+</br>
+
+![Screenshot 2022-09-13 at 6 00 02 AM](https://user-images.githubusercontent.com/69560584/189782384-6f9df794-3fac-48b6-9e40-c135c030c8f5.png)
+
+![Screenshot 2022-09-13 at 5 55 21 AM](https://user-images.githubusercontent.com/69560584/189782400-99d6fef9-711e-41a6-a687-c9dc68210f5d.png)
+
+![Screenshot 2022-09-13 at 5 54 45 AM](https://user-images.githubusercontent.com/69560584/189782402-60d9235a-bb02-4887-8e1d-4b8764056cce.png)
+
+![Screenshot 2022-09-13 at 5 54 37 AM](https://user-images.githubusercontent.com/69560584/189782404-569861de-ad6c-4695-8f87-2b967549b6db.png)
+
+
+</details>
+
+</details>
+
+<details>  
+<summary><strong> ⚠️ Anti-Piracy Warning / Disclaimer ⚠️ </strong></summary>
+</br>
+
+### ⚠️ PIRACY IS NO PARTY! ⚠️
+
+I do not endorse or condone the use of pre-configured Hackintosh Distros because not only they cause unnecessary harm to your machine but it is considered to be a form of **Software Piracy**. Software Piracy is a serious crime according to copyright law and is punishable for up to 10 years in prison. 
+</details>
+
+<details>  
+<summary><strong> ⚠️ Anti-Liability Disclaimer ⚠️ </strong></summary>
+</br>
+
+### ⚠️ Warning ⚠️
+
+- Hackintoshing may be dangerous and can damage your device and I am not responsible for bricked devices, dead devices, thermonuclear war, or you getting fired because your system failed. Please do some research if you have any concerns about hackintoshing before you proceed. 
+</details>
+
+
 
 **Battery and power management performance and more perks!**
 - Disable hibernation, since it doesn't work properly on hackintoshes
