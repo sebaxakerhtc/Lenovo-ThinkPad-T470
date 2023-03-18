@@ -151,7 +151,7 @@ Hackintoshing may be dangerous and can damage your device and I am not responsib
 </details>
 
 #
-## Lenovo ThinkPad T440s Hackintosh Guide
+## Lenovo ThinkPad T470 Hackintosh Guide
 
 <details>  
 <summary><strong>Getting Started</strong></summary>
