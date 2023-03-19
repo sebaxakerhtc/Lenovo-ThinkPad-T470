@@ -327,7 +327,7 @@ sudo ./voltageshift buildlaunchd <CPU> <GPU> <CPUCache> <SA> <AI/O> <DI/O> <turb
 
 
 ## Donate
-<a href="https://paypal.me/momsz"><img src="blue.svg" height="40"></a>  
+<a href="paypal.me/ronincomp"><img src="blue.svg" height="40"></a>  
 If you enjoyed this project — or just feeling generous, consider buying me a beer. Cheers! :beers:
 
 ## Credits
