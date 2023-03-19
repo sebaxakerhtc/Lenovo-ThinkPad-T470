@@ -330,8 +330,11 @@ sudo ./voltageshift buildlaunchd <CPU> <GPU> <CPUCache> <SA> <AI/O> <DI/O> <turb
 <a href="https://paypal.me/momsz"><img src="blue.svg" height="40"></a>  
 If you enjoyed this project — or just feeling generous, consider buying me a beer. Cheers! :beers:
 
+## Credits
 
-## My sincere thanks to**
+<details>  
+<summary><strong>Special Thanks to...</strong></summary>
+</br>
 
 - [Acidanthera](https://github.com/acidanthera)
 - [Dortania OC guide](https://dortania.github.io/OpenCore-Install-Guide/)
