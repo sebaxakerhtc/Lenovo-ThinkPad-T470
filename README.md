@@ -7,13 +7,13 @@
 [![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.7.4-red)](https://www.apple.com/macos/big-sur/)
 [![macOS](https://img.shields.io/badge/macOS-Monterey_12.6.3-green)](https://www.apple.com/macos/monterey/)
 [![macOS](https://img.shields.io/badge/macOS-Ventura_13.2.1-orange)](https://www.apple.com/macos/ventura/)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.8.8-blue)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.0-blue)](https://github.com/acidanthera/OpenCorePkg)
 
 
 <p align="center">
    <strong>Status: Maintained</strong>
    <br />
-   <strong>OpenCore Version: </strong>0.8.8
+   <strong>OpenCore Version: </strong>0.9.0
    <br />
    <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440s/releases"><strong>Download now »</strong></a>
    <br />
@@ -32,6 +32,8 @@
 <details>  
 <summary><strong>Recent Changes ⌚️ </strong></summary>
 </br>
+
+**03/19/2023** : Updated the OpenCore Bootloader to Version ```0.9.0``` and updated all kexts. 
                                                                                                         
 **03/18/2023** : Intial Release.
                                                            
@@ -54,9 +56,9 @@
 | Graphics           | Integrated Intel HD 620 Graphics                                                                          |
 | Memory             | 8 GB DDR4 (2x 4GB DDR4 SODIMM)                                                       |
 | Display            | 14" HD (1920x1080) IPS, Non-Touch                                                                      |
-| Storage            | 1 TB Pioneer SATA SSD + 16 GB mSATA SSD                                                                             |
+| Storage            | 1 TB Pioneer SATA SSD                                                                                  |
 | Ethernet           | Intel Ethernet                                                         |
-| WLAN + Bluetooth   | Intel Wifi 18265 + Bluetooth 4.2                                        |
+| WLAN + Bluetooth   | Intel Wifi 18265 + Bluetooth 4.0                                        |
 | Camera             | 720p resolution, low light sensitive, fixed focus                                                       |
 | Audio support      | HD Audio, Realtek ALC3245 codec, stereo speakers 1Wx2, dual array microphone, combo audio/microphone jack |
 | Keyboard           | 6-row, spill-resistant, multimedia Fn keys, LED backlight                                                 |
@@ -102,6 +104,8 @@
 <details>  
 <summary><strong>Photos 📷 </strong></summary>
 </br>
+
+![189785204-1f684515-7708-4a69-ae59-a0161249cce4](https://user-images.githubusercontent.com/72415505/226209999-2221bae6-e3da-46fe-9bcf-35d52279bffc.png)
 
 ![Screenshot 2022-09-13 at 6 00 02 AM](https://user-images.githubusercontent.com/69560584/189782384-6f9df794-3fac-48b6-9e40-c135c030c8f5.png)
 
@@ -327,10 +331,13 @@ sudo ./voltageshift buildlaunchd <CPU> <GPU> <CPUCache> <SA> <AI/O> <DI/O> <turb
 
 
 ## Donate
-<a href="paypal.me/ronincomp"><img src="blue.svg" height="40"></a>  
-If you enjoyed this project — or just feeling generous, consider buying me a beer. Cheers! :beers:
 
-## Credits
+[![](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/user)
+
+If you enjoyed this project — or just feeling generous, consider donating to my Patreon page or becoming a member of my Patreon.
+
+## Credits!
+
 
 <details>  
 <summary><strong>Special Thanks to...</strong></summary>
@@ -343,5 +350,5 @@ If you enjoyed this project — or just feeling generous, consider buying me a b
 - [VoodooRMI](https://github.com/VoodooSMBus/VoodooRMI)
 - [YogaSMC](https://github.com/zhen-zen/YogaSMC)
 - [Daliansky's OC-little repo](https://github.com/daliansky/OC-little)
-- and the entire community for inspiring me!
+- [momszx] (https://github.com/momszx) for making this project possible.
 
