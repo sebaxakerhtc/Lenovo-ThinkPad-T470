@@ -105,6 +105,9 @@
 <summary><strong>Photos 📷 </strong></summary>
 </br>
 
+![reddithink](https://user-images.githubusercontent.com/72415505/226396656-f62f31bb-ad1e-4e1f-92ae-36f27cbc6577.jpg)
+
+
 ![189785204-1f684515-7708-4a69-ae59-a0161249cce4](https://user-images.githubusercontent.com/72415505/226209999-2221bae6-e3da-46fe-9bcf-35d52279bffc.png)
 
 ![Screenshot 2022-09-13 at 6 00 02 AM](https://user-images.githubusercontent.com/69560584/189782384-6f9df794-3fac-48b6-9e40-c135c030c8f5.png)
