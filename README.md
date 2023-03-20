@@ -15,7 +15,7 @@
    <br />
    <strong>OpenCore Version: </strong>0.9.0
    <br />
-   <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440s/releases"><strong>Download now »</strong></a>
+   <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T470/releases"><strong>Download now »</strong></a>
    <br />
    <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T440s/discussions">Report Bug</a>
    ·
