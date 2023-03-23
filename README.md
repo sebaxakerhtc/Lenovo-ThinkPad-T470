@@ -353,5 +353,5 @@ If you enjoyed this project — or just feeling generous, consider donating to m
 - [VoodooRMI](https://github.com/VoodooSMBus/VoodooRMI)
 - [YogaSMC](https://github.com/zhen-zen/YogaSMC)
 - [Daliansky's OC-little repo](https://github.com/daliansky/OC-little)
-- [ommerus](https://github.com/ommerus) for making this project possible.
+- [ommerus](https://github.com/ommerus) and [momszx](https://github.com/momszx) for making this project possible.
 
