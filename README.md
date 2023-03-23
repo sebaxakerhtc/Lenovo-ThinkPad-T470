@@ -23,7 +23,7 @@
    ·
    <a href=https://www.youtube.com/watch?v=6cAxwXj5Zy4">YouTube Review</a>
    ·
-   <a href="https://github.com/momszx/Lenovo_T470_Opencore">Original Repo</a>
+   <a href="https://github.com/ommerus/T470-EFI-OpenCore">Original Repo</a>
   </p>
 </p>
 </br>
@@ -353,5 +353,5 @@ If you enjoyed this project — or just feeling generous, consider donating to m
 - [VoodooRMI](https://github.com/VoodooSMBus/VoodooRMI)
 - [YogaSMC](https://github.com/zhen-zen/YogaSMC)
 - [Daliansky's OC-little repo](https://github.com/daliansky/OC-little)
-- [momszx] (https://github.com/momszx) for making this project possible.
+- [ommerus](https://github.com/ommerus) for making this project possible.
 
