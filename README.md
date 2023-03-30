@@ -54,7 +54,7 @@
 |:-------------------|:----------------------------------------------------------------------------------------------------------|
 | Processor          | Intel Core i5-7300U (2C, 4T,  2.6GHz / 2.71GHz) vPro (The best compatibility with macOS)                                                              
 | Graphics           | Integrated Intel HD 620 Graphics                                                                          |
-| Memory             | 8 GB DDR4 (2x 4GB DDR4 SODIMM)                                                       |
+| Memory             | 12 GB DDR4 (1x 4GB DDR4 SODIMM + 1x 8GB SODIMM)                                                       |
 | Display            | 14" HD (1920x1080) IPS, Non-Touch                                                                      |
 | Storage            | 1 TB Pioneer SATA SSD                                                                                  |
 | Ethernet           | Intel Ethernet                                                         |
