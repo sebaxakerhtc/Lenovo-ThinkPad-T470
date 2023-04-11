@@ -53,8 +53,8 @@
 | Model              | Lenovo ThinkPad T470                                                                              |
 |:-------------------|:----------------------------------------------------------------------------------------------------------|
 | Processor          | Intel Core i5-7300U (2C, 4T,  2.6GHz / 2.71GHz) vPro (The best compatibility with macOS)                                                              
-| Graphics           | Integrated Intel HD 620 Graphics                                                                          |
-| Memory             | 8 GB DDR4 (2x 4GB DDR4 SODIMM)                                                       |
+| Graphics           | Integrated Intel HD 620 Graphics with 4 GB of VRAM                                                                         |
+| Memory             | 12 GB DDR4 (1x 4 GB DDR4 SODIMM + 1x 8 GB SODIMM)                                                       |
 | Display            | 14" HD (1920x1080) IPS, Non-Touch                                                                      |
 | Storage            | 1 TB Pioneer SATA SSD                                                                                  |
 | Ethernet           | Intel Ethernet                                                         |
