@@ -7,7 +7,7 @@
 [![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.7.4-red)](https://www.apple.com/macos/big-sur/)
 [![macOS](https://img.shields.io/badge/macOS-Monterey_12.6.3-green)](https://www.apple.com/macos/monterey/)
 [![macOS](https://img.shields.io/badge/macOS-Ventura_13.2.1-orange)](https://www.apple.com/macos/ventura/)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.0-blue)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.1-blue)](https://github.com/acidanthera/OpenCorePkg)
 
 
 <p align="center">
@@ -32,6 +32,8 @@
 <details>  
 <summary><strong>Recent Changes ⌚️ </strong></summary>
 </br>
+
+**04/11/2023** : Updated the OpenCore Bootloader to Version ```0.9.1``` and added the ```ECEnabler``` kext for improved power management.
 
 **03/19/2023** : Updated the OpenCore Bootloader to Version ```0.9.0``` and updated all kexts. 
                                                                                                         
