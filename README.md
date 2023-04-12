@@ -33,7 +33,7 @@
 <summary><strong>Recent Changes ⌚️ </strong></summary>
 </br>
 
-**04/12/2023** : Created folders ```EFI (macOS Ventura)``` and ```EFI (macOS Monterey)```.  ```macOS Big Sur``` and older will be added soon. 
+**04/12/2023** : Created folders ```EFI (macOS Ventura)``` and ```EFI (macOS Monterey)```.
 
 **04/11/2023** : Updated the OpenCore Bootloader to Version ```0.9.1``` and added the ```ECEnabler``` kext for improved power management.
 
