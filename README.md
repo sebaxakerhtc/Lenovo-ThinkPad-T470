@@ -109,6 +109,9 @@
 <summary><strong>Photos 📷 </strong></summary>
 </br>
 
+![IMG_2146](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T470/assets/72415505/3da8c6c7-b6cd-47e7-98b2-faaf950c27dc)
+
+
 [![reddithink](https://user-images.githubusercontent.com/72415505/226396656-f62f31bb-ad1e-4e1f-92ae-36f27cbc6577.jpg)](https://i.redd.it/3mq3t4551xoa1.png)
 
 
