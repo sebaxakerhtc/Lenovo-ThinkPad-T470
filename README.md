@@ -13,7 +13,7 @@
 <p align="center">
    <strong>Status: Maintained</strong>
    <br />
-   <strong>OpenCore Version: </strong>0.9.1
+   <strong>OpenCore Version: </strong>0.9.2
    <br />
    <a href="https://github.com/MultimediaLucario/Lenovo-ThinkPad-T470/releases"><strong>Download now »</strong></a>
    <br />
