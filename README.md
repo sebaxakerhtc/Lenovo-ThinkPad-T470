@@ -109,6 +109,9 @@
 <summary><strong>Photos 📷 </strong></summary>
 </br>
 
+![IMG_2146](https://github.com/MultimediaLucario/Lenovo-ThinkPad-T470/assets/72415505/3da8c6c7-b6cd-47e7-98b2-faaf950c27dc)
+
+
 [![reddithink](https://user-images.githubusercontent.com/72415505/226396656-f62f31bb-ad1e-4e1f-92ae-36f27cbc6577.jpg)](https://i.redd.it/3mq3t4551xoa1.png)
 
 
@@ -156,7 +159,7 @@ To start you'll need the following:
 
 You must have the following items:
 - Lenovo ThinkPad T470 (Obviously 😁).
-   > Please note that it is recommended your ThinkPad T470 has an Intel Core i5-7300U in order for macOS to boot. 
+   > Please note that it is recommended your ThinkPad T470 has an Intel Core i5-7300U or at the very least an Intel Core i5-7200U in order for macOS to boot. 
 - Access to a working Windows machine with Python installed.
 - A pendrive with more than 4 GB (Keep in mind, during the preperation we will format the disk to create the install media).
 - an Internet connection via Ethernet.
