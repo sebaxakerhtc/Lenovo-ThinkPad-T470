@@ -33,6 +33,8 @@
 <summary><strong>Recent Changes ⌚️ </strong></summary>
 </br>
 
+**05/17/2023** : Updated the OpenCore Bootloader to Version ```0.9.2``` and updated the ```AppleALC``` kext for improved headphone jack support.
+                                                         
 **04/12/2023** : Created folders ```EFI (macOS Ventura)``` and ```EFI (macOS Monterey)```.
 
 **04/11/2023** : Updated the OpenCore Bootloader to Version ```0.9.1``` and added the ```ECEnabler``` kext for improved power management.
